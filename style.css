@@ -1,0 +1,165 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+#home
+{
+    background-image:  linear-gradient(to bottom,rgb(25, 25, 70),rgb(55, 55, 117) );
+    background-color: rgb(25, 25, 70);
+    height: 600px;
+    width: 100%;
+    
+}
+.container-fluid{position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: rgb(6, 6, 67);
+}
+.navbar-brand{color: beige !important;
+font-weight: 900;}
+.nav-link{color: white !important;}
+.navbar-nav{margin-left: 300px;}
+.nav-item{padding-left: 20px;
+font-size: 20px;}
+.get-start{background-color: rgb(30, 30, 64);
+border-radius:50px ;
+padding: 0px 20px;}
+
+.grid1{margin-top: 100px;
+color: aliceblue;}
+.img{height: 300px;
+width: 400px;
+}
+.btn-vdo{margin-top: 50px;}
+.btn-vdo .fa-video{margin-left: 20px;
+color: aqua;
+font-size: 25px;}
+.btn-vdo b{padding-left: 10px;
+color: beige;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.btn-vdo button{background-color: rgb(30, 85, 85);
+border-radius:20px ;
+color: rgb(234, 236, 237);
+padding: 0px 20px;}
+
+.company{margin-top: 20px;
+height: 50px;
+width: 100%;
+/* background-color: rgb(121, 120, 127); */
+}
+.client1{height: 50px;
+width: 100px;
+filter: grayscale(100%);}
+.client1:hover{filter: grayscale(0);}
+
+#home{background-color: rgb(232, 232, 246);
+height:auto;
+margin-top: 20px;}
+
+ .content{padding-top: 10px;}
+ 
+.accordion-item{background-color: rgb(222, 235, 249) !important;
+}
+.accordion{height: auto;
+margin-bottom: 20px;}
+.business{height: auto;
+max-width: 100%;
+margin-top: 100px;
+margin-left: 40px;
+opacity: .8;
+border-radius: 20px;}
+.about-us{text-align: center;
+color: blue;}
+.img-left{
+    height: auto;
+    max-width:100% ;
+    margin-left: 10px;
+    
+}
+.img-bar{background-color: rgb(212, 212, 245);
+margin-top: 20px;}
+.progress{margin-top: 20px;}
+.bar{padding-top: 100px;}
+
+.card-row{padding-top: 50px;
+height: auto;}
+#service{background-color: rgb(135, 136, 145);
+    height: auto;
+    max-width: 100%;
+    margin-top: 20px;
+text-align: center;
+color: blue;}
+.fl-ex{display: flex;
+}
+#contact{background-color: rgb(200, 200, 234);
+    height: auto;
+margin-top: 20px;}
+.contact-form{padding-top: 100px;
+height: auto;}
+.location{background-color: rgb(150, 182, 172);
+box-shadow: 10px 10px 10px;
+height: 300px;}
+#footer{background-color: rgb(12, 12, 61);
+text-align: center;
+height: 100px;
+color: azure;}
+
+
+
+@media screen and (min-width:320px) and (max-width:780px)
+{
+   #home {
+    height: auto;
+}
+    .grid1{
+margin-top: 18px;}
+.btn-vdo {
+    margin-top: 7px;
+}
+.navbar-toggler{background-color: white !important;}
+.container-fluid{
+    background-color: rgb(17, 17, 67);
+}
+.get-start{background-color: rgb(30, 30, 64);
+border-radius:20px ;
+padding: 0px 10px;}
+.img {
+    height: 291px;
+    width: 311px;
+    margin-top:px;
+    margin-left: 50px;
+    
+}
+.col1{order: 2;
+    justify-content: center;
+    
+}
+.col2{order: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+.company {
+    margin-top: 13px;
+    height: 87px;
+    width: 100%;
+    /* background-color: rgb(121, 120, 127); */
+}
+.business {
+    height: auto;
+    max-width: 100%;
+    margin-top: 85px;
+    margin-left: 6px;
+    opacity: .8;
+    border-radius: 20px;
+}
+.heading{color: aliceblue;}
+.ac-para{color: aliceblue;}
+.accordian{height: auto;}
+ 
+}
+  
+
+
+    
